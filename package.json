@@ -1,0 +1,21 @@
+{
+  "name": "email-sender",
+  "version": "1.0.0",
+  "description": "A simple email sender that sends email everday",
+  "main": "api/sendEmail.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/sendEmail.js",
+    // allows testing the function locally
+    "dev": "nodemon api/sendEmail.js" // for development purposes
+  },
+  "author": "Sanjeet Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.15"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
